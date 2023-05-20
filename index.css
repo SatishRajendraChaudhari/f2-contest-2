@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body{
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+select{
+  padding: 5px;
+  margin-block: 10px;
+}
+
+select, option{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+button{
+ padding: 5px 15px;
+ margin-top: 20px;
+ cursor: pointer;
+ transition: all .3s;
+}
+
+button:active{
+  transform: scale(.8);
+}
+
+.user-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  /* border: 1px solid white; */
+}
+ 
+.user-card{
+  padding: 10px;
+  border: 1px solid white;
+  display: flex;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.add-user{
+  margin-top: 20px;
+}
+
+form .input{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input{
+  background-color: black;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
